@@ -1,11 +1,3 @@
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Special Thanks To (https://github.com/JayMahakal98) & @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
-
 import math, time, re
 from datetime import datetime
 from pytz import timezone
@@ -132,11 +124,3 @@ def add_prefix_suffix(input_string, prefix='', suffix=''):
             return f"{prefix} {filename} {suffix}{extension}"
     else:
         return input_string
-
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Special Thanks To @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
