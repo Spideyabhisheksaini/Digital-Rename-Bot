@@ -1,10 +1,3 @@
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Update Channel @Digital_Botz & @DigitalBotz_Support
-
 import aiohttp, asyncio, warnings, pytz, datetime
 import logging, logging.config, glob, sys, importlib, pyromod
 from pathlib import Path
@@ -75,7 +68,7 @@ class Digital_FileRenameBot(Client):
         await super().stop()
         print("Bot Stopped 🙄")
 
-bot_instance = Digital_FileRenameBot()
+bot_instance = Quick_FileRenameBot()
 
 def main():
     async def start_services():
@@ -96,8 +89,3 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore", message="There is no current event loop")
     main()
     
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Update Channel @Digital_Botz & @DigitalBotz_Support
