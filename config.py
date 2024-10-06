@@ -12,11 +12,11 @@ class Config(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Quick_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://Renamer:8FF5hwLvLYehOtnt@cluster0.gmyihtd.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     PIC = os.environ.get("PIC", "https://graph.org/file/31c39410431e41677f742.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5019668523 6302921275').split()]
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-100"))
 
     #force subs
